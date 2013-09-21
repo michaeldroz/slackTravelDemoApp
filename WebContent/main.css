@@ -28,22 +28,64 @@ html{
 	background: #e6e8d2;
 	color: #d43636;
 }
-#header span#top-overlay{
+#header span#dorm_rooms{
+	font-size: 32px;
+	font-family: "Helvetica";
 	position:absolute;
 	top:0;
 	right:0;
 	height:251px;
 	width: 270px;
 	background: rgba(0,0,0,.5);
-	color:#fff;
+	color:#cccccc;
+	line-height: 1.429;
+	text-align: left;
 }
+#header span#dorm_room2{
+  position: absolute; 
+  font-size: 32px;
+  font-family: "Helvetica";
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 0.625;
+  text-align: left;
+  right: 0;
+  top: 0;
+  height: 251px; 
+  width: 270px;
+}
+.Book_This_Room_For: {
+  font-size: 14px;
+  font-family: "Helvetica";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.429;
+  text-align: left;
+  position: absolute;
+  left: 480px;
+  top: 1004.979px;
+  z-index: 273;
+}
+
+.Change_Currency {
+  font-size: 12px;
+  font-family: "Helvetica";
+  color: rgb( 54, 159, 166 );
+  font-weight: bold;
+  text-decoration: underline;
+  text-align: left;
+  position: absolute;
+  left: 885px;
+  top: 346.682px;
+  z-index: 426;
+}
+
 #header span#bottom-overlay{
 	position:absolute;
 	bottom:0;
 	right:0;
 	height: 51px;
 	width: 270px;
-	background: rgba(212,54,38,1);
+	background: rgba(237,35,49,1);
 	color:#fff;
 }
 .arrow-up{
@@ -55,7 +97,7 @@ html{
 	border-left: 20px solid transparent; 
 	border-right: 20px solid transparent;
 	
-	border-bottom: 20px solid #d43626;
+	border-bottom: 20px solid #ed2331;
 	font-size: 0;
 	line-height: 0;
 }
@@ -143,7 +185,7 @@ div#left-column
 	width:480px;
 	background-color:#232c2e;
 	padding:0 10px; 
-	font-family:Helvetica; 
+	/*font-family:Helvetica; */
 }
 h2{
 	font-family:"Pathway Gothic One";
@@ -158,9 +200,39 @@ h4{
 	color:#e6e8d2;
 }
 p{
-	font-family:Helvetica;
-	color:#e6e8d2;
+	font-family:"Helvetica";
+	color:#cccccc;
+	font-weight: normal;
+	font-size: 16px;
 }
+.Dorm_Rooms_From: {
+  font-size: 14px;
+  font-family: "Helvetica";
+  color: rgb( 255, 255, 255 );
+  line-height: 1.429;
+  text-align: left;
+  -moz-transform: matrix( 1.13673316440315,0,0,1.13673316440315,0,0);
+  -webkit-transform: matrix( 1.13673316440315,0,0,1.13673316440315,0,0);
+  -ms-transform: matrix( 1.13673316440315,0,0,1.13673316440315,0,0);
+  position: absolute;
+  left: 787.497px;
+  top: 178.979px;
+  z-index: 422;
+}
+
+.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
+  font-size: 16px;
+  font-family: "Helvetica";
+  color: rgb( 204, 204, 204 );
+  text-align: left;
+  position: absolute;
+  left: 214px;
+  top: 966.262px;
+  width: 497px;
+  height: 53px;
+  z-index: 204;
+}
+
 /*a{
 	font-family:Helvetica;
 	color:#232c2e;
