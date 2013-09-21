@@ -23,7 +23,7 @@ html{
 	right:0;
 	height:251px;
 	width: 270px;
-	background: rgba(0,0,0,.50);
+	background: rgba(0,0,0,.5);
 	color:#fff;
 }
 #header span#bottom-overlay{
@@ -50,7 +50,7 @@ html{
 }
 #wrap{
 	width:760px;
-	margin:0 auto;
+	margin:0; /*auto will center the wrap*/
 	background:#232c2e;
 }
 div#navigation
@@ -119,15 +119,30 @@ div#right-column
 div#top-column
 {
 	float:left;
-	width:480px;
-	background-color:#232c2e;
-	padding:0 10px; 
+	width:246px;
+	background-color:#e6e8d2;
+	padding:10px 10px; 
 	font-family:Helvetica; 
+}
+div#banner1{
+	float:left;
+	width: 240px;
+	background-color:
+}
+div#banner2{
+	float:left;
+	width: 240px;
+	background-color:
+}
+div#banner3{
+	float:left;
+	width: 240px;
+	background-color:
 }
 div#bottom-column
 {
-	float:right;
-	width:240px;
+	float:none;
+	width:740px;
 	background-color:#232c2e;
 	padding:0 10px; 
 	font-family:Helvetica;
