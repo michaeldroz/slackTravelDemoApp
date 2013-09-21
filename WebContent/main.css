@@ -99,6 +99,44 @@ li a:link, li a:visited{
 li:hover{
 	background-color: #e6e8d2;
 }
+div#media-navigation
+{
+background-color:#232c2e;
+    margin:0 auto;
+    padding:0;
+    height: 50px;
+}
+#media-navigation ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+#media-navigation li{
+	display:inline-block; /*changes ul to horiztontal*/
+	text-align: center;
+	vertical-align: middle;
+	margin:0;
+	padding:15px 15px;
+	color:#232c2e;
+	background:url('navdivder.jpg') left no-repeat;
+	text-decoration: none;
+	background-color:;
+	
+}
+#media-navigation li a:link, li a:visited{
+	text-decoration: none;
+	color:#e6e8d2;
+	font:Helvetica;
+	font-weight: bold;
+	font-size: 10pt; /*1.2em*/
+	
+}
+#media-navigation li:hover{
+	background-color: #e6e8d2;
+}
+#media-container{
+	padding:10px 10px;
+}
 div#left-column
 {
 	float:left;
@@ -249,7 +287,7 @@ div#bottom-column
 }
 #footer li a:link, li a:visited{
 	text-decoration: none;
-	color:#232c2e;
+	color:#ffffff;
 	font:Helvetica;
 	font-weight: bold;
 	font-size: 8pt; /*1.2em*/
