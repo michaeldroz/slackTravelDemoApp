@@ -66,7 +66,7 @@ background-color:#369fa6;
 	list-style:none;
 }
 #navigation li{
-	display:inline-block;
+	display:inline-block; /*changes ul to horiztontal*/
 	text-align: center;
 	vertical-align: middle;
 	margin:0;
@@ -74,6 +74,19 @@ background-color:#369fa6;
 	color:#232c2e;
 	background:url('navdivder.jpg') left no-repeat;
 	text-decoration: none;
+	background-color:;
+	
+}
+li a:link, li a:visited{
+	text-decoration: none;
+	color:#232c2e;
+	font:Helvetica;
+	font-weight: bold;
+	font-size: 10pt; /*1.2em*/
+	
+}
+li:hover{
+	background-color: #e6e8d2;
 }
 div#left-column
 {
@@ -99,11 +112,11 @@ p{
 	font-family:Helvetica;
 	color:#e6e8d2;
 }
-a{
+/*a{
 	font-family:Helvetica;
 	color:#232c2e;
 	text-decoration: none;
-}
+}*/
 .link-body{
 	font-family:Helvetica;
 	color:#369fa6;
@@ -127,17 +140,27 @@ div#top-column
 div#banner1{
 	float:left;
 	width: 240px;
-	background-color:
+	background-color:;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 div#banner2{
 	float:left;
 	width: 240px;
-	background-color:
+	background-color:;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 div#banner3{
 	float:left;
 	width: 240px;
-	background-color:
+	background-color:;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
 }
 div#bottom-column
 {
