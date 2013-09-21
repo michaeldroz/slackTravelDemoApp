@@ -300,3 +300,32 @@ div#bottom-column
 	top:0;
 	
 }
+.amenities-list ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.amenities-list li{
+	display:inline-block;
+	float: left;
+	width: 140px;
+	margin-right:0;
+	margin-bottom: 0;
+	text-align: ;
+	vertical-align: middle;
+	padding:5px 5px;
+	color:#e6e8d2;
+	font-family:Helvetica;
+	background:url('list-arrows.jpg') left no-repeat;
+	text-decoration: none;
+	/*background-image: url(list-arrows.jpg);*/
+	font-size: 8pt;
+}
+.amenities-list li a:link, li a:visited{
+	text-decoration: none;
+	color:#ffffff;
+	font-family:Helvetica;
+	font-weight: bold;
+	font-size: 8pt; /*1.2em*/
+	
+}
