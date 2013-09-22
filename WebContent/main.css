@@ -28,11 +28,12 @@ html{
 	background: #e6e8d2;
 	color: #d43636;
 }
-#header span#dorm_rooms{
-	font-size: 32px;
+
+#header span#dorm-room{
+	font-size: 14px;
 	font-family: "Helvetica";
 	position:absolute;
-	top:0;
+	top:50px;
 	right:0;
 	height:251px;
 	width: 270px;
@@ -41,7 +42,7 @@ html{
 	line-height: 1.429;
 	text-align: left;
 }
-#header span#dorm_room2{
+#header span#dorm-price{
   position: absolute; 
   font-size: 32px;
   font-family: "Helvetica";
@@ -66,16 +67,16 @@ html{
   z-index: 273;
 }
 
-.Change_Currency {
-  font-size: 12px;
+.change-currency {
+  font-size: 12pt;
   font-family: "Helvetica";
   color: rgb( 54, 159, 166 );
   font-weight: bold;
   text-decoration: underline;
   text-align: left;
   position: absolute;
-  left: 885px;
-  top: 346.682px;
+  bottom: 60px;
+  right: 20px;
   z-index: 426;
 }
 
@@ -100,6 +101,15 @@ html{
 	border-bottom: 20px solid #ed2331;
 	font-size: 0;
 	line-height: 0;
+}
+.book-now-main{
+	position:absolute;
+	bottom: 5px;
+	right: 65px;
+	font-size: 20pt;
+	line-height: 1.4;
+	color:#ffffff;
+	z-index:500;
 }
 #wrap{
 	width:760px;
