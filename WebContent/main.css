@@ -27,33 +27,80 @@ html{
 	width: 100px;
 	background: #e6e8d2;
 	color: #d43636;
+	font-weight: bold;
 }
-
-#header span#dorm-room{
+#header span#map-text{
+	position: absolute;
+	top:0;
+	left: 20px;
+	bottom:0;
+	right:0;
+	height: 25px;
+	width: 100px;
+	background: #e6e8d2;
+	color: #d43636;
+	font-weight: bold;
+}
+#header span#top-overlay{
 	font-size: 14px;
 	font-family: "Helvetica";
 	position:absolute;
-	top:50px;
+	top:0px;
 	right:0;
 	height:251px;
 	width: 270px;
-	background: rgba(0,0,0,.5);
+	background: rgba(0,0,0,.65);
 	color:#cccccc;
 	line-height: 1.429;
 	text-align: left;
 }
+#header span#dorm-room{
+  font-size: 12pt;
+  font-family: "Helvetica";
+  color: #cccccc;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  position: absolute;
+  top: 55px;
+  right: 90px;
+  z-index: 426;
+}
 #header span#dorm-price{
-  position: absolute; 
-  font-size: 32px;
+  font-size: 28pt;
   font-family: "Helvetica";
   color: #ffffff;
   font-weight: bold;
-  line-height: 0.625;
+  text-decoration: none;
   text-align: left;
-  right: 0;
-  top: 0;
-  height: 251px; 
-  width: 270px;
+  position: absolute;
+  top: 70px;
+  right: 10px;
+  z-index: 426;
+}
+#header span#private-room{
+  font-size: 12pt;
+  font-family: "Helvetica";
+  color: #cccccc;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+  z-index: 426;
+}
+#header span#private-price{
+  font-size: 28pt;
+  font-family: "Helvetica";
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: left;
+  position: absolute;
+  top: 165px;
+  right: 10px;
+  z-index: 426;
 }
 .Book_This_Room_For: {
   font-size: 14px;
