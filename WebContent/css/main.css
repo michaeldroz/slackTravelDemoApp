@@ -158,6 +158,13 @@ html{
 	color:#ffffff;
 	z-index:500;
 }
+.book-now-main a:link, a:visited{
+	text-decoration: none;
+	color:#ffffff;
+	font:Helvetica;
+	font-weight: bold;
+	font-size: 20pt; /*1.2em*/
+}
 #wrap{
 	width:760px;
 	margin:0; /*auto will center the wrap*/
@@ -262,39 +269,12 @@ p{
 	font-weight: normal;
 	font-size: 16px;
 }
-.Dorm_Rooms_From: {
-  font-size: 14px;
-  font-family: "Helvetica";
-  color: rgb( 255, 255, 255 );
-  line-height: 1.429;
-  text-align: left;
-  -moz-transform: matrix( 1.13673316440315,0,0,1.13673316440315,0,0);
-  -webkit-transform: matrix( 1.13673316440315,0,0,1.13673316440315,0,0);
-  -ms-transform: matrix( 1.13673316440315,0,0,1.13673316440315,0,0);
-  position: absolute;
-  left: 787.497px;
-  top: 178.979px;
-  z-index: 422;
+ul{
+	font-family:"Helvetica";
+	color:#cccccc;
+	font-weight: normal;
+	font-size: 16px;
 }
-
-.Lorem_ipsum_dolor_sit_amet__consectetur_adipisc {
-  font-size: 16px;
-  font-family: "Helvetica";
-  color: rgb( 204, 204, 204 );
-  text-align: left;
-  position: absolute;
-  left: 214px;
-  top: 966.262px;
-  width: 497px;
-  height: 53px;
-  z-index: 204;
-}
-
-/*a{
-	font-family:Helvetica;
-	color:#232c2e;
-	text-decoration: none;
-}*/
 .link-body{
 	font-family:Helvetica;
 	color:#369fa6;
